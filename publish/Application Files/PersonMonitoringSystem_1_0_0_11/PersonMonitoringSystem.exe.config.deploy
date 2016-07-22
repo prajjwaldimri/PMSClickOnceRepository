@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="PersonMonitoringSystem.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+    </startup>
+    <connectionStrings>
+      <add name="PMSDBConnection" connectionString="Server=tcp:hoteldataserveruk.database.windows.net,1433;&#xD;&#xA;           Initial Catalog=hoteldatauk;Persist Security Info=False;User ID=prajjwaldimri;Password=&gt;JE{/!6@42;&#xD;&#xA;           MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
+
+      providerName="System.Data.SqlClient"/>
+    </connectionStrings>
+    <userSettings>
+        <PersonMonitoringSystem.Properties.Settings>
+            <setting name="HotelName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="StreetName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="DistrictName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="CityName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="StateName" serializeAs="String">
+                <value />
+            </setting>
+        </PersonMonitoringSystem.Properties.Settings>
+    </userSettings>
+</configuration>
